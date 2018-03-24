@@ -1,0 +1,398 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		34F4BAC51FFF0B6B00588DBB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34F4BAC41FFF0B6B00588DBB /* AppDelegate.swift */; };
+		34F4BAC71FFF0B6B00588DBB /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34F4BAC61FFF0B6B00588DBB /* HomeViewController.swift */; };
+		34F4BACA1FFF0B6C00588DBB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 34F4BAC81FFF0B6C00588DBB /* Main.storyboard */; };
+		34F4BACD1FFF0B6C00588DBB /* Tretinder.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 34F4BACB1FFF0B6C00588DBB /* Tretinder.xcdatamodeld */; };
+		34F4BACF1FFF0B6C00588DBB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 34F4BACE1FFF0B6C00588DBB /* Assets.xcassets */; };
+		34F4BAD21FFF0B6C00588DBB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 34F4BAD01FFF0B6C00588DBB /* LaunchScreen.storyboard */; };
+		34F4BADA1FFF4C8D00588DBB /* MyBrawlsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34F4BAD91FFF4C8D00588DBB /* MyBrawlsTableViewController.swift */; };
+		34F4BADC1FFF4CE300588DBB /* BrawlTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34F4BADB1FFF4CE300588DBB /* BrawlTableViewCell.swift */; };
+		34F4BADE1FFF5D8300588DBB /* SingletonModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34F4BADD1FFF5D8300588DBB /* SingletonModel.swift */; };
+		34F4BAE1200AE32E00588DBB /* Brawl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34F4BAE0200AE32E00588DBB /* Brawl.swift */; };
+		34F4BAE3200AE6F200588DBB /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34F4BAE2200AE6F200588DBB /* User.swift */; };
+		34F4BAE5200AE9F000588DBB /* Vote.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34F4BAE4200AE9F000588DBB /* Vote.swift */; };
+		34F4BAE9200AEB8A00588DBB /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34F4BAE8200AEB8A00588DBB /* Player.swift */; };
+		34F4BAEC200BF2CA00588DBB /* NewBrawlViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34F4BAEB200BF2CA00588DBB /* NewBrawlViewController.swift */; };
+		34F4BAEE201E688700588DBB /* Quadrilateral.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34F4BAED201E688600588DBB /* Quadrilateral.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		34F4BAC11FFF0B6B00588DBB /* Tretinder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tretinder.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		34F4BAC41FFF0B6B00588DBB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		34F4BAC61FFF0B6B00588DBB /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		34F4BAC91FFF0B6C00588DBB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		34F4BACC1FFF0B6C00588DBB /* Tretinder.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Tretinder.xcdatamodel; sourceTree = "<group>"; };
+		34F4BACE1FFF0B6C00588DBB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		34F4BAD11FFF0B6C00588DBB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		34F4BAD31FFF0B6C00588DBB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		34F4BAD91FFF4C8D00588DBB /* MyBrawlsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyBrawlsTableViewController.swift; sourceTree = "<group>"; };
+		34F4BADB1FFF4CE300588DBB /* BrawlTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrawlTableViewCell.swift; sourceTree = "<group>"; };
+		34F4BADD1FFF5D8300588DBB /* SingletonModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingletonModel.swift; sourceTree = "<group>"; };
+		34F4BAE0200AE32E00588DBB /* Brawl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Brawl.swift; sourceTree = "<group>"; };
+		34F4BAE2200AE6F200588DBB /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		34F4BAE4200AE9F000588DBB /* Vote.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Vote.swift; sourceTree = "<group>"; };
+		34F4BAE8200AEB8A00588DBB /* Player.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
+		34F4BAEB200BF2CA00588DBB /* NewBrawlViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewBrawlViewController.swift; sourceTree = "<group>"; };
+		34F4BAED201E688600588DBB /* Quadrilateral.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Quadrilateral.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		34F4BABE1FFF0B6B00588DBB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		34F4BAB81FFF0B6B00588DBB = {
+			isa = PBXGroup;
+			children = (
+				34F4BAC31FFF0B6B00588DBB /* Tretinder */,
+				34F4BAC21FFF0B6B00588DBB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		34F4BAC21FFF0B6B00588DBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				34F4BAC11FFF0B6B00588DBB /* Tretinder.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		34F4BAC31FFF0B6B00588DBB /* Tretinder */ = {
+			isa = PBXGroup;
+			children = (
+				34F4BAEA200AF4CE00588DBB /* Controller */,
+				34F4BADF200AE2BB00588DBB /* Models */,
+				34F4BAC41FFF0B6B00588DBB /* AppDelegate.swift */,
+				34F4BAC81FFF0B6C00588DBB /* Main.storyboard */,
+				34F4BACE1FFF0B6C00588DBB /* Assets.xcassets */,
+				34F4BAD01FFF0B6C00588DBB /* LaunchScreen.storyboard */,
+				34F4BAD31FFF0B6C00588DBB /* Info.plist */,
+				34F4BACB1FFF0B6C00588DBB /* Tretinder.xcdatamodeld */,
+				34F4BAD91FFF4C8D00588DBB /* MyBrawlsTableViewController.swift */,
+				34F4BADB1FFF4CE300588DBB /* BrawlTableViewCell.swift */,
+				34F4BADD1FFF5D8300588DBB /* SingletonModel.swift */,
+				34F4BAED201E688600588DBB /* Quadrilateral.swift */,
+			);
+			path = Tretinder;
+			sourceTree = "<group>";
+		};
+		34F4BADF200AE2BB00588DBB /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				34F4BAE0200AE32E00588DBB /* Brawl.swift */,
+				34F4BAE2200AE6F200588DBB /* User.swift */,
+				34F4BAE4200AE9F000588DBB /* Vote.swift */,
+				34F4BAE8200AEB8A00588DBB /* Player.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		34F4BAEA200AF4CE00588DBB /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				34F4BAC61FFF0B6B00588DBB /* HomeViewController.swift */,
+				34F4BAEB200BF2CA00588DBB /* NewBrawlViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		34F4BAC01FFF0B6B00588DBB /* Tretinder */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 34F4BAD61FFF0B6C00588DBB /* Build configuration list for PBXNativeTarget "Tretinder" */;
+			buildPhases = (
+				34F4BABD1FFF0B6B00588DBB /* Sources */,
+				34F4BABE1FFF0B6B00588DBB /* Frameworks */,
+				34F4BABF1FFF0B6B00588DBB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Tretinder;
+			productName = Tretinder;
+			productReference = 34F4BAC11FFF0B6B00588DBB /* Tretinder.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		34F4BAB91FFF0B6B00588DBB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = Jimysses;
+				TargetAttributes = {
+					34F4BAC01FFF0B6B00588DBB = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 34F4BABC1FFF0B6B00588DBB /* Build configuration list for PBXProject "Tretinder" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 34F4BAB81FFF0B6B00588DBB;
+			productRefGroup = 34F4BAC21FFF0B6B00588DBB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				34F4BAC01FFF0B6B00588DBB /* Tretinder */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		34F4BABF1FFF0B6B00588DBB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				34F4BAD21FFF0B6C00588DBB /* LaunchScreen.storyboard in Resources */,
+				34F4BACF1FFF0B6C00588DBB /* Assets.xcassets in Resources */,
+				34F4BACA1FFF0B6C00588DBB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		34F4BABD1FFF0B6B00588DBB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				34F4BADA1FFF4C8D00588DBB /* MyBrawlsTableViewController.swift in Sources */,
+				34F4BAEE201E688700588DBB /* Quadrilateral.swift in Sources */,
+				34F4BAC71FFF0B6B00588DBB /* HomeViewController.swift in Sources */,
+				34F4BAEC200BF2CA00588DBB /* NewBrawlViewController.swift in Sources */,
+				34F4BAC51FFF0B6B00588DBB /* AppDelegate.swift in Sources */,
+				34F4BACD1FFF0B6C00588DBB /* Tretinder.xcdatamodeld in Sources */,
+				34F4BAE3200AE6F200588DBB /* User.swift in Sources */,
+				34F4BADC1FFF4CE300588DBB /* BrawlTableViewCell.swift in Sources */,
+				34F4BADE1FFF5D8300588DBB /* SingletonModel.swift in Sources */,
+				34F4BAE5200AE9F000588DBB /* Vote.swift in Sources */,
+				34F4BAE9200AEB8A00588DBB /* Player.swift in Sources */,
+				34F4BAE1200AE32E00588DBB /* Brawl.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		34F4BAC81FFF0B6C00588DBB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				34F4BAC91FFF0B6C00588DBB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		34F4BAD01FFF0B6C00588DBB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				34F4BAD11FFF0B6C00588DBB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		34F4BAD41FFF0B6C00588DBB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		34F4BAD51FFF0B6C00588DBB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		34F4BAD71FFF0B6C00588DBB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4KQWX7GB26;
+				INFOPLIST_FILE = Tretinder/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = jimysses.Tretinder;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		34F4BAD81FFF0B6C00588DBB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4KQWX7GB26;
+				INFOPLIST_FILE = Tretinder/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = jimysses.Tretinder;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		34F4BABC1FFF0B6B00588DBB /* Build configuration list for PBXProject "Tretinder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				34F4BAD41FFF0B6C00588DBB /* Debug */,
+				34F4BAD51FFF0B6C00588DBB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		34F4BAD61FFF0B6C00588DBB /* Build configuration list for PBXNativeTarget "Tretinder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				34F4BAD71FFF0B6C00588DBB /* Debug */,
+				34F4BAD81FFF0B6C00588DBB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		34F4BACB1FFF0B6C00588DBB /* Tretinder.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				34F4BACC1FFF0B6C00588DBB /* Tretinder.xcdatamodel */,
+			);
+			currentVersion = 34F4BACC1FFF0B6C00588DBB /* Tretinder.xcdatamodel */;
+			path = Tretinder.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 34F4BAB91FFF0B6B00588DBB /* Project object */;
+}
